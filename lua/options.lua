@@ -4,7 +4,7 @@ vim.opt.termguicolors = true	-- Enable true color support
 -- BEHAVIOR --
 vim.opt.swapfile = false		-- Don't use swap files (Modern NeoVim configs typically don't use this feature)
 vim.opt.backup = false			-- Do not backup files (we have git for a reason)
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "100"
 vim.opt.undofile = true			-- Persistant and long running undos for undo tree
 vim.opt.scrolloff = 8			-- Always have the cursor at least 8 lines from the top or bottom of view where possible
 vim.opt.updatetime = 50			-- Fast update time
