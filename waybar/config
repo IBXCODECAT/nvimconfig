@@ -1,20 +1,24 @@
 {
     "layer": "top",
 	"position": "top",
-    "modules-left": ["custom/nathan", "hyprland/workspaces"],
-    "modules-center": ["clock"],
+    "modules-left": ["clock", "custom/nathan"],
+    "modules-center": ["hyprland/workspaces"],
     "modules-right": ["network", "battery"],
 	"hyprland/workspaces": {
     	"format": "{icon}",
     	"format-icons": {
+			"1": "󰡴",
+			"2": "",
+			"3": "",
+			"4": "",
+			"5": "",
         	"default": "󰍹",
-        	"active": "󱎴",
         	"urgent": ""
     	},
     	"all-outputs": true 
 	},
 	"custom/nathan": {
-		"format": "Nathan - "
+		"format": " --- Nathan"
 	},
     "battery": {
 		"interval": 2,
